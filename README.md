@@ -11,7 +11,7 @@ $ node server.sh
 Graphiql will be available on localhost:3000
 
 This query:
-```json
+```graphql
 {
   author(id:1) {
     id, children {
