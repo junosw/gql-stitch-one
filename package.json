@@ -1,0 +1,25 @@
+{
+  "name": "gql-one",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:server": "rm -rf ./build && webpack --config webpack.config.server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.10.5",
+    "graphql-tools": "^1.2.2",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.6.1",
+    "start-server-webpack-plugin": "^2.2.0",
+    "webpack": "^3.5.6",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
